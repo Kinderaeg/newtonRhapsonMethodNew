@@ -30,4 +30,4 @@ class Reader():
             exp = int(f[2])
         else:
             exp =1
-        return str(int(f[1])*int(exp))+'x**'+str(exp-1)
+        return str(int(f[1])*int(exp))+'*x**'+str(exp-1)
